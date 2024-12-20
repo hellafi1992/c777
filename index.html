@@ -5,6 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TOKEN_TLY24</title>
 </head>
+    <script>
+        var video = document.getElementById("myVideo");
+        var btn = document.getElementById("myBtn");
+        
+        function myFunction() {
+            if (video.paused) {
+                video.play();
+                btn.innerHTML = "Pause";
+                } else {
+                    video.pause();
+                    btn.innerHTML = "Play";
+                }
+            }
+</script>
 <style>
 
     body{
@@ -65,18 +79,29 @@
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
 
+    #myVideo {
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        min-width: 100%;
+        min-height: 100%;
+    }
 
 
 
 </style>
 <body>
+    <video autoplay muted loop id="myVideo">
+        <source src="ground.mp4" type="video/mp4">
+        Your browser does not support HTML5 video.
+    </video>
     <main>
         <img src="TLY24 png.png" alt="" width="200px">
         <div class="logo">New Libyan Cryptocurrency</div>
         <ul>
-            <a class="a1" href="https://hellafi1992.github.io/tly24/">Click Trade with confidence</a>
-            <a class="a2" href="https://hellafi1992.github.io/tly2024/">Learn a little</a>
             <a class="a3" href="https://hellafi1992.github.io/xm/">Page Details</a>
+            <a class="a2" href="https://hellafi1992.github.io/tly2024/">Learn a little</a>
+            <a class="a1" href="https://hellafi1992.github.io/tly24/">Click Trade with confidence</a>
         
         
         </ul>
