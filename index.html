@@ -184,7 +184,7 @@
         }
 
         .bg-img-2 {
-            background-image: url('22341.jpg');
+            background-image: url('YT2.jpg');
         }
 
         section {
@@ -302,7 +302,8 @@
             text-align: right;
             color: var(--black-border);
             font-size: 23px;
-            font-family: 'Courier New', Courier, monospace;
+            font-family: ;
+            color: white;
         }
 
         .reviews .grid .comment blockquote::before {
@@ -322,7 +323,9 @@
             text-align: center;
             padding: 20px 15px 50px 15px;
             line-height: 30px;
-            font-size: 15px;
+            font-size: 16px;
+            font-weight: 900;
+            color: #2d8cf0;
         }
 
         @media(max-width: 920px) {
@@ -377,9 +380,9 @@
             color: rgb(75, 75, 235);
         }
 
-        /* From Uiverse.io by andrew-demchenk0 */ 
-/* before adding the img to the div with the 
-"card-img" class, remove css styles 
+        /* From Uiverse.io by andrew-demchenk0 */
+/* before adding the img to the div with the
+"card-img" class, remove css styles
 .card-img .img::before and .card-img .img::after,
 then set the desired styles for .card-img. */
 .card {
@@ -425,9 +428,9 @@ then set the desired styles for .card-img. */
     border: 2px solid black;
     background-color: #228b22;
     background-image: linear-gradient(to top,transparent 10px,rgba(0,0,0,0.3) 10px,rgba(0,0,0,0.3) 13px,transparent 13px);
-  }
-  
-  .card-img .img::before {
+}
+
+.card-img .img::before {
    /* delete */
     content: '';
     position: absolute;
@@ -442,9 +445,9 @@ then set the desired styles for .card-img. */
     background-position: center 3px,center bottom,center bottom,center bottom,center bottom;
     border-radius: 0 0 4px 4px;
     z-index: 2;
-  }
-  
-  .card-img .img::after {
+}
+
+.card-img .img::after {
    /* delete */
     content: '';
     position: absolute;
@@ -466,84 +469,157 @@ then set the desired styles for .card-img. */
     border-left: 2px solid black;
     transform: rotate(45deg);
     z-index: 1;
-  }
-  
-  .card-title {
-    font-size: 20px;
+}
+
+.card-title {
+    font-size: 30px;
     font-weight: 500;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
-    color: var(--font-color);
-  }
-  
-  .card-subtitle {
+    color: violet;
+    text-shadow: 0 0 1px var(--black-border),
+    0 2px violet;
+}
+
+.card-subtitle {
     font-size: 14px;
     font-weight: 400;
     color: var(--font-color-sub);
-  }
-  
-  .card-divider {
+}
+
+.card-divider {
     width: 100%;
     border: 1px solid var(--main-color);
     border-radius: 50px;
-  }
-  
-  .card-footer {
+}
+
+.card-footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-  }
-  
-  .card-price {
+}
+
+.card-price {
     font-size: 20px;
     font-weight: 500;
     color: var(--font-color);
-  }
-  
-  .card-price span {
+}
+
+.card-price span {
     font-size: 20px;
     font-weight: 500;
     color: var(--font-color-sub);
-  }
-  
-  .card-btn {
+}
+
+.card-btn {
     height: 35px;
     background: var(--bg-color);
     border: 2px solid var(--main-color);
     border-radius: 5px;
     padding: 0 15px;
     transition: all 0.3s;
-  }
-  
-  .card-btn svg {
+}
+
+.card-btn svg {
     width: 100%;
     height: 100%;
     fill: var(--main-color);
     transition: all 0.3s;
-  }
-  
-  .card-img:hover {
+}
+
+.card-img:hover {
     transform: translateY(-3px);
-  }
-  
-  .card-btn:hover {
+}
+
+.card-btn:hover {
     border: 2px solid var(--main-focus);
-  }
-  
-  .card-btn:hover svg {
+}
+
+.card-btn:hover svg {
     fill: var(--main-focus);
-  }
-  
-  .card-btn:active {
+}
+
+.card-btn:active {
     transform: translateY(3px);
-  }
+}
 
 
-  #a1{
+#a1{
     font-size: 25px;
     padding: .5em auto;
-  }
-  
+}
+
+
+.button{
+    translate: 0% 54px;
+    margin: 6px auto;
+    border-radius: 5px;
+    width: 180px;
+    height: 40px;
+    box-shadow: inset 0 0 90px black,
+    0 1px 0 0 violet,0 -1px 0 0 goldenrod,
+    1px 0 0 0 white,
+    -1px 0 0 0 white;
+}
+
+
+.button:hover{
+    translate: 0% 54px;
+    margin: 6px auto;
+    border-radius: 5px;
+    width: 180px;
+    height: 40px;
+    box-shadow: inset 0 0 90px black,
+    0 1px 0 0 violet,0 -1px 0 0 goldenrod,
+    1px 0 0 0 white,
+    -1px 0 0 0 white;
+    scale: 1.06;
+}
+.button:active{
+    translate: 0% 54px;
+    margin: 6px auto;
+    border-radius: 5px;
+    width: 180px;
+    height: 40px;
+    box-shadow: inset 0 0 90px black,
+    0 1px 0 0 violet,0 -1px 0 0 goldenrod,
+    1px 0 0 0 white,
+    -1px 0 0 0 white;
+    scale: 1.10;
+}
+.loop{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.er{
+    position: relative;
+    top: 0%;
+    left: 0%;
+    color: #921212;
+    text-shadow: 0 .7px greenyellow;
+    animation: er 3s linear infinite;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 900;
+    font-size: 26px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+@keyframes er {
+    from{
+        color: red;
+        text-shadow: 0 -.5px greenyellow;
+    }
+    to{
+        color: red;
+        text-shadow: 0 .5px greenyellow;
+    }
+}
+
+
+
     </style>
 </head>
 
@@ -558,7 +634,7 @@ then set the desired styles for .card-img. */
                     <a class="a3" href="https://hellafi1992.github.io/about/">حول</a>
                     <a class="a3" href="https://hellafi1992.github.io/news/">أخبار</a>
                     <a class="a2" href="https://hellafi1992.github.io/mytokentubrok2024/">موقعي</a>
-                    <a class="a3" href="https://hellafi1992.github.io/asm/">الجديد</a>
+                    <a class="a3" href="https://hellafi1992.github.io/mytokentubrok2024/">الجديد</a>
                     <a class="a1" href="https://pancakeswap.finance/?outputCurrency=0x86D29104ea2C78cB124443dd21A664c712525C13">تداول</a>
                 </div>
             </div>
@@ -577,7 +653,7 @@ then set the desired styles for .card-img. */
                 <br>
                 <div class="card">
                     <div class="card-img"><img  src="TLY24 png.png" width="120px" alt=""></div>
-                    <div class="card-title">TUBROK 2024</div>
+                    <div class="card-title">TLY24</div>
                     <div class="card-subtitle">TLY24 عملة قابلة للسيولة مالك العملة يمد العون لها </div>
                     <hr class="card-divider">
                     <div class="card-footer">
@@ -588,6 +664,13 @@ then set the desired styles for .card-img. */
                         </button>
                     </div>
                 </div>
+                <div class="loop">
+                    <button class="button"><a href="https://app.mizar.com/dex/snipe/new/bsc/0x86D29104ea2C78cB124443dd21A664c712525C13" class="er">Mizar</a></button>
+                    <button class="button"><a href="https://poocoin.app/tokens/0x86d29104ea2c78cb124443dd21a664c712525c13" class="er">Poocoin</a></button>
+                    <button class="button"><a href="https://apespace.io/bsc/0x86d29104ea2c78cb124443dd21a664c712525c13" class="er">Apespace</a></button>
+                    <button class="button"><a href="https://www.geckoterminal.com/bsc/pools/0xa0fe88f37440d674c48a584a364d45db17ee447d" class="er">Geckoterminal</a></button>
+                    <button class="button"><a href="https://pancakeswap.finance/?chain=bsc&outputCurrency=0x86D29104ea2C78cB124443dd21A664c712525C13" class="er">Pancakeswap</a></button>
+                </div>
             </section>
             <section class="reviews">
                 <h2>معلومات</h2>
@@ -596,7 +679,7 @@ then set the desired styles for .card-img. */
                         <blockquote>
                         تطوير السلسة يوم بعد يوم اتمنا التوفيق للزوار
                         </blockquote>
-                        <p class="author">H_Ellafi</p>
+                        <p class="author">شكرآ</p>
                     </div>
                     <div class="comment">
                         <blockquote>
@@ -609,12 +692,6 @@ then set the desired styles for .card-img. */
             <footer>
                 <div class="copyright">
                     2024 © Token / TLY24
-                    <br>
-                    H_Ellafi
-                    <br>
-                    NumPhone/ +218920449070
-                    <br>
-                    Email/ hellafi1992@gmail.com
                 </div>
             </footer>
         </main>
@@ -623,7 +700,7 @@ then set the desired styles for .card-img. */
                 <i class="fa-solid fa-xmark"></i>
             </span>
             <a id="a1" style="color: rgb(75, 75, 235);" href="https://pancakeswap.finance/?outputCurrency=0x86D29104ea2C78cB124443dd21A664c712525C13">تداول</a>
-            <a id="a1" style="color: rgb(75, 75, 235);" href="https://hellafi1992.github.io/asm/">الجديد</a>
+            <a id="a1" style="color: rgb(75, 75, 235);" href="https://hellafi1992.github.io/nass/">الجديد</a>
             <a id="a1" style="color: rgb(75, 75, 235);" href="https://hellafi1992.github.io/mytokentubrok2024/">موقعي</a>
             <a id="a1" style="color: rgb(75, 75, 235);" href="https://hellafi1992.github.io/news/">أخبار</a>
             <a id="a1" style="color: rgb(75, 75, 235);" href="https://hellafi1992.github.io/about/">حول</a>
